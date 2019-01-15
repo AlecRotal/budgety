@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+      - export DEPLOYPATH=/home/hadzidaov/budgety.hadzidaov.eu
+      - /bin/cp index.html $DEPLOYPATH
+      - /bin/cp style.css $DEPLOYPATH
+      - /bin/cp app.js $DEPLOYPATH
+      - /bin/cp back.png $DEPLOYPATH
